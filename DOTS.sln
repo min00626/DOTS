@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Physics.Custom.Editor", "Unity.Physics.Custom.Editor.csproj", "{3FB78F63-B020-654A-73A8-4A4ED2BC23C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Physics.Custom", "Unity.Physics.Custom.csproj", "{8B60D808-C728-0653-C576-E32D8CBAC84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6B4F4895-9A45-446D-6C7F-922B3565E8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DAAEA321-79C5-55C7-925C-017F685E1108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB78F63-B020-654A-73A8-4A4ED2BC23C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB78F63-B020-654A-73A8-4A4ED2BC23C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB78F63-B020-654A-73A8-4A4ED2BC23C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB78F63-B020-654A-73A8-4A4ED2BC23C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B60D808-C728-0653-C576-E32D8CBAC84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B60D808-C728-0653-C576-E32D8CBAC84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B60D808-C728-0653-C576-E32D8CBAC84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B60D808-C728-0653-C576-E32D8CBAC84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4F4895-9A45-446D-6C7F-922B3565E8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4F4895-9A45-446D-6C7F-922B3565E8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4F4895-9A45-446D-6C7F-922B3565E8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4F4895-9A45-446D-6C7F-922B3565E8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAEA321-79C5-55C7-925C-017F685E1108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAEA321-79C5-55C7-925C-017F685E1108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAEA321-79C5-55C7-925C-017F685E1108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAEA321-79C5-55C7-925C-017F685E1108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
