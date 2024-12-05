@@ -17,8 +17,8 @@ public class UIManager : MonoBehaviour
 	[SerializeField] Image playerExpBar;
 
 	[SerializeField] CanvasGroup playerUpgradePanel;
-	 List<Button> playerUpgradeButtons;
-	 List<TMP_Text> playerUpgradeButtonTexts;
+	List<Button> playerUpgradeButtons = new List<Button>();
+	List<TMP_Text> playerUpgradeButtonTexts = new List<TMP_Text>();
 
 	EntityManager entityManager;
 	EntityQuery entityQuery;

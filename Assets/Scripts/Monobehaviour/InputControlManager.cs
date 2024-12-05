@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Entities;
 using Unity.Collections;
-using UnityEditor.Search;
 using Unity.Mathematics;
 
 public class InputControlManager : MonoBehaviour

@@ -1,11 +1,17 @@
+using EcsDamageBubbles.Config;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Runtime.CompilerServices;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
+using Unity.Entities.UniversalDelegates;
 using Unity.Jobs;
 using Unity.Mathematics;
+using Unity.Physics;
 using Unity.Transforms;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public partial struct BombControlSystem : ISystem
@@ -17,12 +23,17 @@ public partial struct BombControlSystem : ISystem
 		enemyQuery = state.GetEntityQuery(ComponentType.ReadOnly<Enemy>(), ComponentType.ReadOnly<LocalTransform>());
 
 		state.RequireForUpdate<BombData>();
+		state.RequireForUpdate<SpawnVfxConfig>();
+		state.RequireForUpdate<SpawnExpPointConfig>();
+		state.RequireForUpdate<DamageIndicatorConfig>();
 	}
 
 	[BurstCompile]
 	public void OnUpdate(ref SystemState state)
 	{
 		SpawnVfxConfig spawnVfxConfig = SystemAPI.GetSingleton<SpawnVfxConfig>();
+		SpawnExpPointConfig spawnExpPointConfig = SystemAPI.GetSingleton<SpawnExpPointConfig>();
+		DamageIndicatorConfig damageIndicatorConfig = SystemAPI.GetSingleton<DamageIndicatorConfig>();
 
 		EntityCommandBuffer jobEcb = new EntityCommandBuffer(Allocator.TempJob, PlaybackPolicy.MultiPlayback);
 
@@ -30,23 +41,25 @@ public partial struct BombControlSystem : ISystem
 		NativeArray<LocalTransform> enemyTransformArray = enemyQuery.ToComponentDataArray<LocalTransform>(Allocator.TempJob);
 		NativeArray<Enemy> enemyArray = enemyQuery.ToComponentDataArray<Enemy>(Allocator.TempJob);
 
-		JobHandle mineControlJobHandle = new MineControlJob
+		JobHandle distanceBombControlJob = new DistanceBombControlJob
 		{
 			enemyEntities = entityArray,
 			enemyTransforms = enemyTransformArray,
 			enemyData = enemyArray,
 			ecb = jobEcb,
 			spawnVfxConfig = spawnVfxConfig,
+			spawnExpPointConfig = spawnExpPointConfig,
+			damageIndicatorConfig = damageIndicatorConfig,
 		}.Schedule(state.Dependency);
 
-		mineControlJobHandle.Complete();
+		distanceBombControlJob.Complete();
 
 		if (!jobEcb.IsEmpty)
 		{
 			jobEcb.Playback(state.EntityManager);
 		}
 
-		JobHandle grenadeAndDynamiteControlJobHandle = new GrenadeAndDynamiteControlJob
+		JobHandle timerBombControlJob = new TimerBombControlJob
 		{
 			enemyEntities = entityArray,
 			enemyTransforms = enemyTransformArray,
@@ -54,13 +67,15 @@ public partial struct BombControlSystem : ISystem
 			ecb = jobEcb,
 			deltaTime = SystemAPI.Time.DeltaTime,
 			spawnVfxConfig = spawnVfxConfig,
-		}.Schedule(mineControlJobHandle);
+			spawnExpPointConfig = spawnExpPointConfig,
+			damageIndicatorConfig = damageIndicatorConfig,
+		}.Schedule(distanceBombControlJob);
 
-		grenadeAndDynamiteControlJobHandle.Complete();
+		timerBombControlJob.Complete();
 
-		enemyArray.Dispose(grenadeAndDynamiteControlJobHandle);
-		enemyTransformArray.Dispose(grenadeAndDynamiteControlJobHandle);
-		entityArray.Dispose(grenadeAndDynamiteControlJobHandle);
+		enemyArray.Dispose(timerBombControlJob);
+		enemyTransformArray.Dispose(timerBombControlJob);
+		entityArray.Dispose(timerBombControlJob);
 
 		if (!jobEcb.IsEmpty)
 		{
@@ -71,16 +86,18 @@ public partial struct BombControlSystem : ISystem
 	}
 
 	[BurstCompile]
-	[WithAll(typeof(Mine))]
-	public partial struct MineControlJob : IJobEntity
+	[WithAny(typeof(Mine), typeof(Grenade))]
+	public partial struct DistanceBombControlJob : IJobEntity
 	{
 		[ReadOnly] public NativeArray<Entity> enemyEntities;
 		[ReadOnly] public NativeArray<LocalTransform> enemyTransforms;
 		[ReadOnly] public NativeArray<Enemy> enemyData;
 
-		internal EntityCommandBuffer ecb;
+		public EntityCommandBuffer ecb;
 
-		public SpawnVfxConfig spawnVfxConfig;
+		[ReadOnly] public SpawnVfxConfig spawnVfxConfig;
+		[ReadOnly] public SpawnExpPointConfig spawnExpPointConfig;
+		[ReadOnly] public DamageIndicatorConfig damageIndicatorConfig;
 
 		public void Execute(Entity mineEntity, in LocalTransform mineTransform, in BombData bombData)
 		{
@@ -103,10 +120,21 @@ public partial struct BombControlSystem : ISystem
 			 
 			if (isDetonated)
 			{
+				Entity glyphEntity = damageIndicatorConfig.glyphEntity;
 				foreach (int i in enemiesInBombRadius)
 				{
-					ecb.SetComponent(enemyEntities[i], new Enemy { hp = enemyData[i].hp - bombData.damage, maxHp = enemyData[i].maxHp });
-					ecb.AddComponent(enemyEntities[i], new DamagedEnemyTag());
+					int damage = (int)bombData.damage;
+					float newHp = enemyData[i].hp - bombData.damage;
+
+					if (newHp > 0)
+					{
+						ecb.SetComponent(enemyEntities[i], new Enemy { hp = newHp, maxHp = enemyData[i].maxHp, attack = enemyData[i].attack });
+					}
+					else
+					{
+						ProcessDeadEnemy(spawnExpPointConfig, spawnVfxConfig, ecb, enemyTransforms[i], enemyEntities[i]);
+					}
+					SpawnGlyph(damageIndicatorConfig, damage, enemyTransforms[i], ecb);
 				}
 				ecb.DestroyEntity(mineEntity);
 				Entity e = ecb.Instantiate(spawnVfxConfig.vfxBombExplosionEntity);
@@ -119,7 +147,7 @@ public partial struct BombControlSystem : ISystem
 
 	[BurstCompile]
 	[WithAny(typeof(Dynamite), typeof(Grenade))]
-	public partial struct GrenadeAndDynamiteControlJob : IJobEntity
+	public partial struct TimerBombControlJob : IJobEntity
 	{
 		[ReadOnly] public NativeArray<Entity> enemyEntities;
 		[ReadOnly] public NativeArray<LocalTransform> enemyTransforms;
@@ -127,7 +155,9 @@ public partial struct BombControlSystem : ISystem
 
 		internal EntityCommandBuffer ecb;
 
-		public SpawnVfxConfig spawnVfxConfig;
+		[ReadOnly] public SpawnVfxConfig spawnVfxConfig;
+		[ReadOnly] public SpawnExpPointConfig spawnExpPointConfig;
+		[ReadOnly] public DamageIndicatorConfig damageIndicatorConfig;
 
 		public float deltaTime;
 
@@ -140,8 +170,17 @@ public partial struct BombControlSystem : ISystem
 				{
 					if(math.distance(dynamiteTransform.Position, enemyTransforms[i].Position) < bombData.radius)
 					{
-						ecb.SetComponent(enemyEntities[i], new Enemy { hp = enemyData[i].hp - bombData.damage, maxHp = enemyData[i].maxHp });
-						ecb.AddComponent(enemyEntities[i], new DamagedEnemyTag());
+						int damage = (int)bombData.damage;
+						float newHp = enemyData[i].hp - bombData.damage;
+                        if (newHp>0)
+                        {
+							ecb.SetComponent(enemyEntities[i], new Enemy { hp = newHp, maxHp = enemyData[i].maxHp, attack = enemyData[i].attack });
+						}
+						else
+						{
+							ProcessDeadEnemy(spawnExpPointConfig, spawnVfxConfig, ecb, enemyTransforms[i], enemyEntities[i]);
+						}
+						SpawnGlyph(damageIndicatorConfig, damage, enemyTransforms[i], ecb);
 					}
 				}
 				ecb.DestroyEntity(dynamiteEntity);
@@ -149,6 +188,56 @@ public partial struct BombControlSystem : ISystem
 				ecb.SetComponent(e, new LocalTransform { Position = dynamiteTransform.Position, Rotation = Quaternion.identity, Scale = 1f });
 				ecb.AddComponent(e, new VfxTimer { timer = 1.5f });
 			}
+		}
+	}
+
+	[MethodImpl(MethodImplOptions.AggressiveInlining)]
+	static void ProcessDeadEnemy(SpawnExpPointConfig spawnExpPointConfig, SpawnVfxConfig spawnVfxConfig, EntityCommandBuffer ecb, LocalTransform enemyTransform, Entity enemyEntity)
+	{
+		// spawn exp
+		Entity expPointEntity = ecb.Instantiate(spawnExpPointConfig.expPointPrefabEntity);
+		ecb.SetComponent(expPointEntity, new LocalTransform
+		{
+			Position = new float3
+			{
+				x = enemyTransform.Position.x,
+				y = 3,
+				z = enemyTransform.Position.z
+			},
+			Rotation = Quaternion.identity,
+			Scale = 1
+		});
+		/*
+		Vector2 expVelocityVec = UnityEngine.Random.insideUnitCircle;
+		ecb.SetComponent(expPointEntity, new PhysicsVelocity
+		{
+			Linear = new float3 { x = expVelocityVec.x * 5, y = 25, z = expVelocityVec.y * 5 },
+			Angular = float3.zero
+		});
+		*/
+		ecb.SetComponent(expPointEntity, new PhysicsVelocity { Linear = new float3 { x = 0, y = 25, z = 0 }, Angular = float3.zero });
+
+		ecb.DestroyEntity(enemyEntity);
+		Entity enemyExplosionEntty = ecb.Instantiate(spawnVfxConfig.vfxEnemyExplosionEntity);
+		ecb.SetComponent(enemyExplosionEntty, new LocalTransform { Position = enemyTransform.Position, Rotation = Quaternion.identity, Scale = 1f });
+		ecb.AddComponent(enemyExplosionEntty, new VfxTimer { timer = 1.5f });
+	}
+
+	[MethodImpl(MethodImplOptions.AggressiveInlining)]
+	static void SpawnGlyph(DamageIndicatorConfig damageIndicatorConfig, int damage, LocalTransform glyphTransform, EntityCommandBuffer ecb)
+	{
+		glyphTransform.Position.y += 5;
+		glyphTransform.Scale = 10;
+		while (damage > 0)
+		{
+			var digit = damage % 10;
+			damage /= 10;
+			var glyph = ecb.Instantiate(damageIndicatorConfig.glyphEntity);
+			ecb.SetComponent(glyph, glyphTransform);
+			glyphTransform.Position.x -= damageIndicatorConfig.glyphWidth;
+			ecb.AddComponent(glyph, new GlyphIdFloatOverride { Value = digit });
+			//ecb.SetComponent(glyph, new GlyphColorOverride { Color = damageIndicatorConfig. });
+			ecb.AddComponent(glyph, new VfxTimer { timer = .7f });
 		}
 	}
 }

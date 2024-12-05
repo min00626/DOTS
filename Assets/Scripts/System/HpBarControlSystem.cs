@@ -12,6 +12,12 @@ using static UnityEngine.EventSystems.EventTrigger;
 [UpdateAfter(typeof(BombControlSystem))]
 public partial class HpBarControlSystem : SystemBase
 {
+	protected override void OnCreate()
+	{
+		RequireForUpdate<SpawnVfxConfig>();
+		RequireForUpdate<SpawnExpPointConfig>();
+	}
+
 	const float t = .98f;
 	protected override void OnUpdate()
 	{

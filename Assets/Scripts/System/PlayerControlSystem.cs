@@ -27,14 +27,19 @@ public partial struct PlayerControlSystem : ISystem
 
 		InputControl inputControl = SystemAPI.GetSingleton<InputControl>();
 
-		foreach (var (localTransform, playerData, timer) in SystemAPI.Query<RefRW<LocalTransform>, RefRW<PlayerData>, RefRW<Timer>>().WithAll<Player>()) {
-			float3 dir = new float3 { x = inputControl.direction.x, y = 0, z = inputControl.direction.y } * playerData.ValueRW.speed * SystemAPI.Time.DeltaTime;
+		foreach (var (localTransform, playerData, timer, physicsVelocity) in SystemAPI.Query<RefRW<LocalTransform>, RefRW<PlayerData>, RefRW<Timer>, RefRW<PhysicsVelocity>>().WithAll<Player>()) {
+			float3 dir = math.normalizesafe(new float3 { x = inputControl.direction.x, y = 0, z = inputControl.direction.y }) * playerData.ValueRW.speed;// * SystemAPI.Time.DeltaTime;
 			if (math.length(dir) > 0.0001f)
 			{
-				localTransform.ValueRW.Position += dir;
+				//localTransform.ValueRW.Position += dir;
+				physicsVelocity.ValueRW.Linear = dir;
 
 				quaternion targetRotation = quaternion.LookRotationSafe(dir, math.up());
 				localTransform.ValueRW.Rotation = targetRotation;
+			}
+			else
+			{
+				physicsVelocity.ValueRW.Linear = float3.zero;
 			}
 
 			if (inputControl.changeWeapon)
@@ -89,7 +94,7 @@ public partial struct PlayerControlSystem : ISystem
 				ecb.SetComponent(bombEntity, new LocalTransform
 				{
 					Position = localTransform.ValueRO.Position,
-					Rotation = quaternion.identity,
+					Rotation = localTransform.ValueRO.Rotation,
 					Scale = 1.0f
 				});
 				

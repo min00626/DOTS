@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Burst;
-using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
-using UnityEngine;
+
 
 public partial struct EnemyControlSystem : ISystem
 {
@@ -19,10 +16,12 @@ public partial struct EnemyControlSystem : ISystem
 		state.RequireForUpdate(entityQuery);
 	}
 
+	[BurstCompile]
 	public void OnUpdate(ref SystemState state)
 	{
 		Entity player = entityQuery.GetSingletonEntity();
 		LocalTransform playerLocalTransform = state.EntityManager.GetComponentData<LocalTransform>(player);
+		// Job »ý¼º
 		new ControlEnemyJob { 
 			deltaTime = SystemAPI.Time.DeltaTime,
 			playerLocalTransform = playerLocalTransform,
@@ -38,20 +37,16 @@ public partial struct EnemyControlSystem : ISystem
 
 		public void Execute(ref LocalTransform localTransform)
 		{
-
 			float3 dir = playerLocalTransform.Position - localTransform.Position;
 			dir.y = 0;
 			dir = math.normalizesafe(dir);
 
-			//TODO : make enemy look at player
 			localTransform.Rotation = quaternion.LookRotationSafe(dir, math.up());
 			float distance = math.length(playerLocalTransform.Position - localTransform.Position);
-			if (distance < 3f)
+			if (distance > 3f)
 			{
-				return;
+				localTransform = localTransform.Translate(dir * deltaTime * 4);
 			}
-			localTransform = localTransform.Translate(dir * deltaTime * 4);
-
 		}
 	}
 }

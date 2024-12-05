@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-	readonly float3 offset = new float3 {x=0,y=15, z=-7 };
+	readonly float3 offset = new float3 {x=0,y=11.3f, z=-10 };
 	//public float3 min;
 	//public float3 max;
 
 	private Entity player;
 	EntityManager entityManager;
+	EntityQuery query;
 
 	private void Awake()
 	{
@@ -19,15 +20,27 @@ public class CameraFollow : MonoBehaviour
 
 	private void Start()
 	{
-		EntityQuery query = entityManager.CreateEntityQuery(ComponentType.ReadOnly(typeof(Player)), ComponentType.ReadOnly(typeof(LocalTransform)));
-		player = query.GetSingletonEntity();
+		query = entityManager.CreateEntityQuery(ComponentType.ReadOnly(typeof(Player)), ComponentType.ReadOnly(typeof(LocalTransform)));
+		try
+		{
+			player = query.GetSingletonEntity();
+		}
+		catch { }
 	}
 
 	void LateUpdate()
 	{
-		if (entityManager == null || player == null)
+		if (entityManager == null)
 		{
 			return;
+		}
+		if(player == null)
+		{
+			try
+			{
+				player = query.GetSingletonEntity();
+			}
+			catch { return; }
 		}
 
 		LocalTransform entPos = entityManager.GetComponentData<LocalTransform>(player);

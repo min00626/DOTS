@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6576119c7567743ab24cae65f513a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minePrefab: {fileID: 6859105940773021701, guid: a677c459a7d9af745a4ef9c37d9fcd15,
+  minePrefab: {fileID: 6954395108308992530, guid: a677c459a7d9af745a4ef9c37d9fcd15,
     type: 3}
   grenadePrefab: {fileID: 5114569612764378156, guid: 22f1df44376fe8e4a955f30b5cd6f781,
     type: 3}
@@ -164,6 +164,53 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117052514}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1282737955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282737957}
+  - component: {fileID: 1282737956}
+  m_Layer: 0
+  m_Name: DamageIndicatorConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1282737956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282737955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1651e9e28f2f73f48a7eb0e6ca830fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glyphPrefab: {fileID: 5797547164850935345, guid: bf72be9ed2a24b34594bda415a0e13ca,
+    type: 3}
+  glyphWidth: 0.7
+--- !u!4 &1282737957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282737955}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -188,6 +235,7 @@ GameObject:
   - component: {fileID: 1344214158}
   - component: {fileID: 1344214164}
   - component: {fileID: 1344214165}
+  - component: {fileID: 1344214166}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -408,7 +456,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344214157}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -491,6 +539,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+--- !u!114 &1344214166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344214157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26675c1f21370e34db8d258066c1928f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorPrefab: {fileID: 2279519279108946368, guid: ea9858054c2a24c44860fad959182d10,
+    type: 3}
 --- !u!1 &1525795306
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8215486575394493562, guid: 41d8afe4626f88b46a936522b5ce7b7f,
     type: 3}
-  amount: 1000
+  amount: 3000
 --- !u!4 &1525795308
 Transform:
   m_ObjectHideFlags: 0
@@ -615,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569043e6f583fe84e8f8612ca723cef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expPointPrefab: {fileID: 8768523912893886068, guid: c973f44b8f59c004ba9c2d3251651d69,
+  expPointPrefab: {fileID: 7954710833061481251, guid: dce6e19bf2e82a94c9c30746ccd47a9a,
     type: 3}
 --- !u!4 &1867350801
 Transform:
@@ -672,7 +734,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: b21a892758926b2498e54a4c1b391e9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -921,3 +983,4 @@ SceneRoots:
   - {fileID: 1867350801}
   - {fileID: 117052516}
   - {fileID: 1766088297}
+  - {fileID: 1282737957}

@@ -16,7 +16,7 @@ public class PlayerDataAuthoring : MonoBehaviour
 				hp = 100f,
 				maxCooldown = .5f,
 				cooldown = 0f,
-				speed = 10f,
+				speed = 13f,
 				bombType = BombType.Mine,
 				mineDamage = 1f,
 				mineRadius = 1f,

@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "D:\\UnityLibrary\\DOTS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|d:\\unitylibrary\\dots\\assets\\scripts\\system\\hpbarcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\hpbarcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\playerdataauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\playerdataauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\exppointcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\exppointcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|d:\\unitylibrary\\dots\\assets\\scripts\\system\\enemycontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\enemycontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\bombcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\bombcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\exppointauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\exppointauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\monobehaviour\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\enemycontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\enemycontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\monobehaviour\\inputcontrolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\inputcontrolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\animatorprefabauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\animatorprefabauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\enemyauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\enemyauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\dynamiteauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\dynamiteauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\playerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\playerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\playercontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\playercontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\spawnbombconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\spawnbombconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\exppointcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\exppointcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\spawnenemyconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\spawnenemyconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\damageindicatorconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\damageindicatorconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\textmesh pro\\shaders\\tmp_sdf-mobile overlay.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\shaders\\tmp_sdf-mobile overlay.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\spawnexppointconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +63,48 @@
       "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\spawnvfxconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\enemyauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\enemyauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\spawnenemyconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\spawnenemyconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\timerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\timerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\textmesh pro\\shaders\\tmp_bitmap-custom-atlas.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\shaders\\tmp_bitmap-custom-atlas.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\monobehaviour\\hpbarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\hpbarmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\hpbarcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\hpbarcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\monobehaviour\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monobehaviour\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\nondots\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nondots\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\playerdataauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\playerdataauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\system\\vfxcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\vfxcontrolsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\exppointauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\exppointauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\spawnbombconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\spawnbombconfigauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\timerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\timerauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\grenadeauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,20 +119,16 @@
       "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\mineauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|D:\\UnityLibrary\\DOTS\\assets\\scripts\\authoring\\dynamiteauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4F4895-9A45-446D-6C7F-922B3565E8B4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authoring\\dynamiteauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\assets\\scripts\\inputcontrolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\inputcontrolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\assets\\scripts\\triggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\triggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\TriggerSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TriggerSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,132 +138,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HpBarControlSystem.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\HpBarControlSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\HpBarControlSystem.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\HpBarControlSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\System\\HpBarControlSystem.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAABBAAAA",
+              "DocumentIndex": 3,
+              "Title": "InputControlManager.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\InputControlManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\InputControlManager.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\InputControlManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\InputControlManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T13:09:31.278Z",
+              "WhenOpened": "2024-08-29T02:06:03.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\CameraFollow.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\CameraFollow.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvyAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:27:39.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimatorPrefabAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\AnimatorPrefabAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\AnimatorPrefabAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\AnimatorPrefabAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\AnimatorPrefabAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T10:54:44.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\PlayerAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\PlayerAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:36:15.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyControlSystem.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\EnemyControlSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\EnemyControlSystem.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\EnemyControlSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\EnemyControlSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T11:47:08.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PlayerControlSystem.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\PlayerControlSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\System\\PlayerControlSystem.cs",
               "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\PlayerControlSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\System\\PlayerControlSystem.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAABIwEkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T03:40:00.432Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerDataAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T04:59:54.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "BombControlSystem.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\BombControlSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\System\\BombControlSystem.cs",
               "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\BombControlSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\System\\BombControlSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAAEAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAM4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T11:47:04.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExpPointControlSystem.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\ExpPointControlSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\ExpPointControlSystem.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\ExpPointControlSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\System\\ExpPointControlSystem.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwCQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T05:09:28.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyControlSystem.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\EnemyControlSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\EnemyControlSystem.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\EnemyControlSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\System\\EnemyControlSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T11:47:08.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExpPointAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T08:49:20.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VfxControlSystem.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\VfxControlSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\VfxControlSystem.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\VfxControlSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\System\\VfxControlSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T06:19:28.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SpawnVfxConfigAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T01:19:17.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpawnBombConfigAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:02:12.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "SpawnEnemyConfigAuthoring.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnEnemyConfigAuthoring.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnEnemyConfigAuthoring.cs",
@@ -231,43 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EnemyAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T14:35:00.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SpawnExpPointConfigAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T09:01:56.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TimerAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T07:58:59.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "DynamiteAuthoring.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\DynamiteAuthoring.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\DynamiteAuthoring.cs",
@@ -279,43 +251,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GrenadeAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "EnemyAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\EnemyAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:30:47.426Z"
+              "WhenOpened": "2024-07-07T14:35:00.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InputControlAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "DocumentIndex": 31,
+              "Title": "SpawnDamageIndicatorAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnDamageIndicatorAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:37:11.994Z"
+              "WhenOpened": "2024-07-25T06:06:10.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MineAuthoring.cs",
-              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\MineAuthoring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\MineAuthoring.cs",
-              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\MineAuthoring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Authoring\\MineAuthoring.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "DocumentIndex": 10,
+              "Title": "ExpPointControlSystem.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\ExpPointControlSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\ExpPointControlSystem.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\ExpPointControlSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\ExpPointControlSystem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwCQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T12:03:23.752Z"
+              "WhenOpened": "2024-07-15T05:09:28.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
+              "Title": "DamageIndicatorConfigAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\DamageIndicatorConfigAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\DamageIndicatorConfigAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\DamageIndicatorConfigAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\DamageIndicatorConfigAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T15:29:50.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Lit.shader",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
@@ -327,7 +311,199 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TMP_SDF-Mobile Overlay.shader",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile Overlay.shader",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile Overlay.shader",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile Overlay.shader",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile Overlay.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-07-25T08:03:29.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SpawnVfxConfigAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnVfxConfigAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T01:19:17.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpawnExpPointConfigAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnExpPointConfigAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T09:01:56.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HpBarControlSystem.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\HpBarControlSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\HpBarControlSystem.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\HpBarControlSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\HpBarControlSystem.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADgvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:09:31.278Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\UIManager.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\UIManager.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAxwBQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:57:09.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HpBarManager.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\HpBarManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monobehaviour\\HpBarManager.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Monobehaviour\\HpBarManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monobehaviour\\HpBarManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:44:31.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TMP_Bitmap-Custom-Atlas.shader",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\TextMesh Pro\\Shaders\\TMP_Bitmap-Custom-Atlas.shader",
+              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Shaders\\TMP_Bitmap-Custom-Atlas.shader",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\TextMesh Pro\\Shaders\\TMP_Bitmap-Custom-Atlas.shader",
+              "RelativeToolTip": "Assets\\TextMesh Pro\\Shaders\\TMP_Bitmap-Custom-Atlas.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-07-25T05:19:05.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlayerDataAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\PlayerDataAuthoring.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:59:54.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\NonDOTS\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NonDOTS\\PlayerController.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\NonDOTS\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NonDOTS\\PlayerController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvzcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:49:08.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VfxControlSystem.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\VfxControlSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\VfxControlSystem.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\System\\VfxControlSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\VfxControlSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:19:28.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExpPointAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\ExpPointAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:49:20.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SpawnBombConfigAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\SpawnBombConfigAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:02:12.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TimerAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\TimerAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T07:58:59.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GrenadeAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\GrenadeAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:30:47.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InputControlAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\InputControlAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:37:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MineAuthoring.cs",
+              "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\MineAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Authoring\\MineAuthoring.cs",
+              "ToolTip": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\Authoring\\MineAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Authoring\\MineAuthoring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T12:03:23.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "InputControlManager.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\InputControlManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputControlManager.cs",
@@ -339,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "TriggerSystem.cs",
               "DocumentMoniker": "D:\\UnityLibrary\\DOTS\\Assets\\Scripts\\TriggerSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSystem.cs",
